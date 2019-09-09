@@ -1,0 +1,47 @@
+.Barcode{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 5rem;
+}
+.barcode__input{
+    background: #FEF2F5;
+    color: #9fb0c5;
+    height: 42px;
+    padding: 5px 10px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.barcode__input-scan{
+    position: relative;
+    margin-bottom: 3rem;
+}
+.barcode__input-scan label{
+    width: 100%;
+    height: 200px;
+    background-image: url('../../assets/images/camera.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+.barcode__input-scan input{
+    width: 100%;
+    height: 200px;
+    background: transparent;
+    z-index:10;
+    
+    visibility: hidden;
+}
+.scan-btn{
+    background: #FEF2F5;
+    border: none;
+    border-radius: 4px;
+}
